@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".homeActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1st April 2018"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="K30,000"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Savings"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Records"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <ImageButton
+        android:id="@+id/savings_imageButton"
+        android:layout_width="107dp"
+        android:layout_height="107dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/clip1"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <ImageButton
+        android:id="@+id/cashbox_imageButton"
+        android:layout_width="107dp"
+        android:layout_height="107dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/safe"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Wallet"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <ImageButton
+        android:id="@+id/records_imageButton"
+        android:layout_width="107dp"
+        android:layout_height="107dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/piggy"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cash Box"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="358dp" />
+</android.support.constraint.ConstraintLayout>
