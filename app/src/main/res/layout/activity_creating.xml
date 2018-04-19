@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".creatingActivity"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <EditText
+        android:id="@+id/gname"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:background="@drawable/rounded_edges_2"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Group Name"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/gcode"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:background="@drawable/rounded_edges_2"
+        android:paddingLeft="20dp"
+        android:hint="Group Code (auto)"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/startamout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Start Amount"
+        android:background="@drawable/rounded_edges_2"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/gmemebers"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="XXXX"
+        android:background="@drawable/rounded_edges_2"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edges"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Create"
+        android:id="@+id/create_button"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel Create"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/cancel_create_textView"/>
+
+
+
+</LinearLayout>

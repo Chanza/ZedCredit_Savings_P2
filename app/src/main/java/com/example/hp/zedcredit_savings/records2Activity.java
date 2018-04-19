@@ -45,7 +45,7 @@ public class records2Activity extends AppCompatActivity {
         switch (view.getId()){
             case R.id.add_button:
                 try{
-                    controller.insert_student(fname.getText().toString(),sname.getText().toString());
+                    //controller.insert_student(fname.getText().toString(),sname.getText().toString());
                 }catch (SQLiteException e){
                     Toast.makeText(records2Activity.this,"ALREADY EXISTS",Toast.LENGTH_SHORT).show();
                 }

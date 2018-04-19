@@ -22,7 +22,10 @@
         <activity android:name=".savingsActivity" />
         <activity android:name=".cashbox2Activity" />
         <activity android:name=".records2Activity" />
-        <activity android:name=".naviMainActivity"></activity>
+        <activity android:name=".navigationActivity" />
+        <activity android:name=".registerActivity" />
+        <activity android:name=".joinActivity" />
+        <activity android:name=".creatingActivity"></activity>
     </application>
 
 </manifest>

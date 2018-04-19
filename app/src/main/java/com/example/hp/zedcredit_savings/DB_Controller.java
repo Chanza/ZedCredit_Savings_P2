@@ -45,9 +45,9 @@ public class DB_Controller extends SQLiteOpenHelper {
     //Viewinging into table
     public void view_student(TextView textView){
         Cursor cursor = this.getReadableDatabase().rawQuery("SELECT * FROM STUDENTS",null);
+        textView.setText("");
         while(cursor.moveToNext()){
-            textView.setText("");
-            textView.append(cursor.getString(1)+" "+cursor.getString(2)+"\n");
+            textView.append(cursor.getString(1)+"          "+cursor.getString(2)+"\n");
 
         }
 
